@@ -1,0 +1,23 @@
+.button1 {
+  padding: 15px;
+  display: inline-block;
+  background-color: aqua;
+  color: gray;
+  text-transform: uppercase;
+  box-shadow: 15px 15px 15px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  zoom: 1.2;
+  background-color: red;
+  transition: all 0.3s;
+  border-bottom: solid blue 5px;
+  color: blue;
+}
+.button1:active {
+  color: red;
+  border: dotted 5px blue;
+  background-color: orange;
+  transition: all 0.3s;
+}
